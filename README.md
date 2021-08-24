@@ -1,3 +1,11 @@
+# linus.sh
+
+[linus.sh](https://linus.sh) was created during the [hacker zephyr](https://zephyr.hackclub.com), mostly so I could distribute apps. The apps are currently still being hosted on the [zephyrnet](https://zephyrnet.hackclub.com), but as more are added I'll have to figure out what to do.
+
+The website is deployed through Cloudflare Pages, because why not?
+
+---
+<small>Below is the original readme, from the [zephyrnet](https://zephyrnet.hackclub.com).</small>
 # Quick setup
 
 ```
