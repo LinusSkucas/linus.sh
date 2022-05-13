@@ -19,6 +19,27 @@
 			  cursor: pointer;
 			  font-size: 20px;
 			}
+		.classythingy {
+			animation: rotation 2s infinite linear;
+		}
+
+		.bigtext {
+			font-size: 100px;
+		}
+
+
+		@keyframes rotation {
+		  from {
+			transform: rotate(0deg);
+		  }
+		  to {
+			transform: rotate(359deg);
+		  }
+
+		  0% { color: red; }
+			50% { color: blue; }
+			100% { color: green; }
+		}
 
 			/* Darker background on mouse-over */
 			.btn:hover {
@@ -30,13 +51,16 @@
 				<a href="https://karabiner-elements.pqrs.org">Download Karabiner-Elements</a>
 			</ul>
 			<ul>
-				<a id="linkthing" href="karabiner://karabiner/assets/complex_modifications/import?url=https://linus.sh/karabiner/discord.json"><button class="btn"><i class="fa fa-download"></i> Download This easy File</button></a>
+				<a id="hijohn" href="karabiner://karabiner/assets/complex_modifications/import?url=https://linus.sh/karabiner/discord.json"><button class="btn"><i class="fa fa-download"></i> Download This easy File</button></a>
 			</ul>
+			<ul><a id="linkythingy" class="classythingy" href="https://linus.sh/karabiner/adobe.html"><h1 class="bigtext">Try some Flashed Adobe too?</h1> </a></ul>
 		</li>
 		<script>
-				var a = document.getElementById("linkthing");
+			var b = document.getElementById("linkythingy");
+			b.style.display = "none";
+				var a = document.getElementById("hijohn");
 				a.onclick = function() {
-					document.location.href = "https://linus.sh/karabiner/adobe.html"
+					b.style.display = "block";
 				}
 
 		</script>
